@@ -1,0 +1,7 @@
+gh workflow run "00 - Hola Actions"
+
+# Espera unos segundos y lista los runs
+gh run list --workflow="00 - Hola Actions"
+
+# Ver el detalle del último
+gh run view --log
